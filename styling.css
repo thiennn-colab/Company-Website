@@ -1,0 +1,98 @@
+/* Style body by adding background image and set it to cover, add font family*/
+body{
+	background: url(http://freenaturestock.s3.amazonaws.com/232.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: Arvo, serif;
+}
+
+/* Style brand image*/
+#crown{
+	width: 40px;
+}
+/* Style navigation bar*/
+.navbar-inverse{
+	background: rgba(0,0,0,0.5);
+}
+.nav li{
+	color: #fff;
+	font-size: 20px;
+	margin-right: 20px;
+	padding: 10px 0px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+.nav li:hover{
+	border-bottom: 2px solid rgb(0, 255, 184);
+}
+/* Style jumbotron*/
+.jumbotron{
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.jumbotron h1{
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+/* Limit the with of the icons section*/
+.bodyimage{
+	height: 100px;
+}
+.row{
+	max-width: 1000px;
+}
+/* Style icon se.container{
+	max-width: 1000px;
+}tion using bootstrap grid system*/
+.col-md-4{
+	text-align: center;
+}
+.col-md-4 p{
+	font-size: 15px;
+}
+#iconsection img{
+	width: 70px;
+}
+/* Style contact button*/
+.contact button{
+	color: black;
+	background-color: rgba(0, 255, 184, 0.6);
+	margin-top: 20px;
+	color: white;
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 10px;
+}
+.contact button:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+/* Style footer*/
+.footer{
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 30px;
+	font-size: 20px;
+}
+/* Use media queries to change icons size in small devices*/
+@media (min-width:480px) and (max-width:768px){
+	.jumbotron h1{
+		font-size: 30px;
+		margin-bottom: 20px;
+		font-weight: bold;
+	}
+	#iconsection img{
+		width: 60px;
+	}
+	#iconsection h2{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#iconsection p{
+		font-size: 15px;
+	}
+	.contact button{
+		margin-top: 30px;
+		
+	}
+}
